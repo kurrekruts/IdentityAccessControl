@@ -1,0 +1,19 @@
+﻿@model System.Security.Principal.IPrincipal
+           
+@{
+    ViewBag.Title = "Claims";
+}
+
+<h1>Claims</h1>
+
+<br />
+<br />
+<b>Username: @Model.Identity.Name</b>
+<br />
+Authentication Type: @Model.Identity.AuthenticationType
+
+<br />
+<br />
+<br />
+@Html.Partial("_ClaimsPartial")
+

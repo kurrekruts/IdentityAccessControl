@@ -1,0 +1,17 @@
+﻿@model Identity45.Models.SessionTokenModel
+
+@{
+    ViewBag.Title = "SessionToken";
+}
+
+<h2>SessionToken</h2>
+
+<fieldset>
+    <legend>Session Token Details</legend>
+
+    @Html.DisplayForModel()
+
+</fieldset>
+<p>
+    @Html.ActionLink("raw XML", "SessionTokenRaw", "Diag") |
+</p>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="3221e3ef-16d5-45f6-8876-3f4478fb6541" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://adfs.leastprivilege.vm/adfsapp/service.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="f8da0a85-724b-46b7-ad30-f5da9fb355e8" SourceId="1" SourceUrl="https://adfs.leastprivilege.vm/adfsapp/service.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="service.disco" MetadataType="Disco" ID="1b2ceb81-6781-49e1-a304-0714901ccdef" SourceId="1" SourceUrl="https://adfs.leastprivilege.vm/adfsapp/service.svc?disco" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="88c64a94-0e07-4ba8-93f0-f76a3e6aed6e" SourceId="1" SourceUrl="https://adfs.leastprivilege.vm/adfsapp/service.svc?xsd=xsd1" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="972aa86d-a373-466b-8e12-ad06c7b4372b" SourceId="1" SourceUrl="https://adfs.leastprivilege.vm/adfsapp/service.svc?xsd=xsd0" />
+    <MetadataFile FileName="ClaimsService.wsdl" MetadataType="Wsdl" ID="c4f2d700-b2e8-4481-b559-2f8e71565b9a" SourceId="1" SourceUrl="https://adfs.leastprivilege.vm/adfsapp/service.svc?wsdl" />
+    <MetadataFile FileName="service2.xsd" MetadataType="Schema" ID="2aae9048-6777-432e-91bc-7c85f4458826" SourceId="1" SourceUrl="https://adfs.leastprivilege.vm/adfsapp/service.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

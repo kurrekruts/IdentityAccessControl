@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="urn:tt" elementFormDefault="qualified" targetNamespace="urn:tt" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="https://adfs.leastprivilege.vm/adfsapp/service.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Identity45" />
+  <xs:element name="GetClaims">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetClaimsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Identity45" minOccurs="0" name="GetClaimsResult" nillable="true" type="q1:ArrayOfViewClaim" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
